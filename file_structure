@@ -1,0 +1,49 @@
+linkedin-post-generator/
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── routes.py
+│   │   ├── models.py
+│   │   ├── prompts.py
+│   │   ├── config.py
+│   │   └── services/
+│   │       ├── __init__.py
+│   │       └── gemini.py
+│   ├── .env
+│   ├── .env.example
+│   ├── requirements.txt
+│   └── README.md
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── GeneratorForm.jsx
+│   │   │   ├── ResultCard.jsx
+│   │   │   ├── LoadingSpinner.jsx
+│   │   │   ├── CopyButton.jsx
+│   │   │   └── Footer.jsx
+│   │   │
+│   │   ├── hooks/
+│   │   │   └── useGeneratePost.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── pages/
+│   │   │   └── Home.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+│
+├── .gitignore
+├── LICENSE
+└── README.md
