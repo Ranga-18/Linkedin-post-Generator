@@ -13,6 +13,7 @@ def generate_post(request: GeneratePostRequest):
             project_name=request.project_name,
             description=request.description,
             tone=request.tone,
+            length=request.length or "medium",
         )
 
         return {

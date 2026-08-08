@@ -5,43 +5,40 @@ linkedin-post-generator/
 │   │   ├── __init__.py
 │   │   ├── main.py
 │   │   ├── routes.py
-│   │   ├── models.py
-│   │   ├── prompts.py
+│   │   ├── models.py done
+│   │   ├── prompts.py, test_models.py
 │   │   ├── config.py
 │   │   └── services/
 │   │       ├── __init__.py
 │   │       └── gemini.py
 │   ├── .env
-│   ├── .env.example
-│   ├── requirements.txt
-│   └── README.md
+│
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── Header.jsx
-│   │   │   ├── Hero.jsx
-│   │   │   ├── GeneratorForm.jsx
-│   │   │   ├── ResultCard.jsx
-│   │   │   ├── LoadingSpinner.jsx
+│   │   │   ├── Header.jsx done
+│   │   │   ├── Hero.jsx done
+│   │   │   ├── GeneratorForm.jsx done
+│   │   │   ├── ResultCard.jsx done
 │   │   │   ├── CopyButton.jsx
-│   │   │   └── Footer.jsx
+│   │   │   └── Footer.jsx unchange
 │   │   │
 │   │   ├── hooks/
-│   │   │   └── useGeneratePost.js
+│   │   │   └── useGeneratePost.jsx done
 │   │   │
 │   │   ├── services/
 │   │   │   └── api.js
 │   │   │
 │   │   ├── pages/
-│   │   │   └── Home.jsx
+│   │   │   └── Home.jsx done
 │   │   │
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
+│   │   ├── App.jsx done, App.css
+│   │   ├── main.jsx done
+│   │   └── index.css done
 │   │
 │   ├── package.json
-│   ├── vite.config.js
+│   ├── vite.config.js, eslint.config.js
 │   └── README.md
 │
 ├── .gitignore

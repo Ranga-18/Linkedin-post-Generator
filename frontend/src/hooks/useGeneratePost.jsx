@@ -13,18 +13,15 @@ export default function useGeneratePost() {
 
     try {
       const response = await api.post("/generate", data);
-
       setResult(response.data.data);
     } catch (err) {
       console.error(err);
-
       const detail = err.response?.data?.detail;
-
-if (Array.isArray(detail)) {
-  setError(detail[0].msg);
-} else {
-  setError(detail || "Something went wrong.");
-}
+      if (Array.isArray(detail)) {
+        setError(detail[0].msg);
+      } else {
+        setError(detail || "Something went wrong.");
+      }
     } finally {
       setLoading(false);
     }

@@ -12,6 +12,14 @@ Project Description:
 Writing Tone:
 {tone}
 
+Post Length:
+{length}
+
+Length Guidelines:
+- short: around 400-600 characters, 2-3 short paragraphs
+- medium: around 900-1400 characters, 3-4 paragraphs
+- long: around 1800-2400 characters, 4-6 paragraphs with more detail and storytelling
+
 Return ONLY a valid JSON object.
 
 Use this exact format:
@@ -32,6 +40,6 @@ Rules:
 - Do not include explanations.
 - Do not include ```json.
 - Return only valid JSON.
-- Keep the post under 250 words.
+- Follow the Post Length guideline strictly.
 - Generate 5 to 8 relevant hashtags.
 """
