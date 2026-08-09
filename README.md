@@ -2,13 +2,13 @@
 
 ## Deployed Application
 
-[https://your-vercel-app.vercel.app/](https://your-vercel-app.vercel.app/)
+[https://linkedin-post-generator-wheat.vercel.app](https://linkedin-post-generator-wheat.vercel.app)
 
 ## Getting Started
 
-LinkedIn Post Generator is an AI-powered web application that generates LinkedIn posts using Google Gemini AI.
+LinkedIn Post Generator is an AI-powered web application that generates professional LinkedIn posts using Google Gemini AI.
 
-Enter a topic, choose a writing tone, and generate a complete LinkedIn post with:
+Enter what you want to post about, choose a writing tone, and generate a complete LinkedIn post with:
 
 - Title
 - LinkedIn post content
@@ -36,10 +36,8 @@ Enter a topic, choose a writing tone, and generate a complete LinkedIn post with
 
 ## Backend API
 
-[https://your-render-backend.onrender.com/docs](https://your-render-backend.onrender.com/docs)
+[https://linkedin-post-generator-api-6jud.onrender.com](https://linkedin-post-generator-api-6jud.onrender.com)
 
 ## Documentation
 
-The backend API documentation is available through FastAPI Swagger UI:
-
-[https://your-render-backend.onrender.com/docs](https://your-render-backend.onrender.com/docs)
+[https://linkedin-post-generator-api-6jud.onrender.com/docs](https://linkedin-post-generator-api-6jud.onrender.com/docs)
